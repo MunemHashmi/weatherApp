@@ -3,8 +3,6 @@ import StatCard from "@/components/StatCard";
 import TempChart from "@/components/TempChart";
 import RainChart from "@/components/RainChart";
 import HumidityChart from "@/components/HumidityChart";
-import { resourceLimits } from "worker_threads";
-import React, { useState, useEffect } from "react";
 
 
 export const revalidate = 60;
