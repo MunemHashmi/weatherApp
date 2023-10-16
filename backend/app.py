@@ -24,9 +24,6 @@ def get_weather_data():
         if response.status_code == 200:
             data = response.json()
 
-            # Print the response content to the console
-            print(data)
-
             # Return the response as JSON
             return jsonify(data)
         else:
