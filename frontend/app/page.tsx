@@ -10,7 +10,6 @@ export default function Home() {
         <Text className="text-6xl font-bold text-center mb-10">WeatherApp</Text>
         <Divider className="my-10" />
         <Card className="bg-gradient-to-br from-[#394F68] to-[#183B7E]">
-        {/* City */}
           <CityPicker />
         </Card>
       </Card>

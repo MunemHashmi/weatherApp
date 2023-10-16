@@ -1,6 +1,6 @@
 "use-client"
 
-import { useRouter } from 'next/router';
+import { useRouter } from "@/node_modules/next/navigation";
 import { Country, City } from 'country-state-city';
 import { useState } from 'react';
 import Select from 'react-select';
